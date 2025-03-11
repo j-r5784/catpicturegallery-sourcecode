@@ -1,0 +1,56 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-color: rgb(44, 44, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.actualbody{
+    width: 90%;
+    justify-self: center;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.tbContainer{
+    object-fit: contain;
+}
+
+.topbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    position: fixed;
+    width: 90%;
+}
+
+.tbheader{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.msheader1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.msimage1{
+    display: flex;
+    justify-self: center;
+    padding: 50px;
+    object-fit: cover;
+}
